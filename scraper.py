@@ -43,7 +43,7 @@ def check_price():
 
     print(title, converted_price)
 
-    if converted_price > 50:
+    if converted_price < 50:
         send_email()
 
 
